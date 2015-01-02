@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Enter your ID & Password"
+AuthUserFile /var/www/html/contact/admin/.htpasswd
+require valid-user
